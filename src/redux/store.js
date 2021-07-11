@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 // import logger from 'redux-logger';
 
-import contacts from './contacts';
+import { contacts } from './contacts';
 
 const store = configureStore({
   reducer: {
